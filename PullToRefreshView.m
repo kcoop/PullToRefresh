@@ -214,6 +214,21 @@
     }
 }
 
+-(UILabel *)statusLabel
+{
+    return statusLabel;
+}
+
+-(UILabel *)lastUpdatedLabel
+{
+    return lastUpdatedLabel;
+}
+
+-(CALayer *)arrowImage
+{
+    return arrowImage;
+}
+
 #pragma mark -
 #pragma mark Dealloc
 

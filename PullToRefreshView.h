@@ -52,6 +52,9 @@ typedef enum {
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, weak) id<PullToRefreshViewDelegate> delegate;
 @property (nonatomic, assign, getter = isEnabled) BOOL enabled;
+@property (readonly, nonatomic) UILabel *statusLabel;
+@property (readonly, nonatomic) UILabel *lastUpdatedLabel;
+@property (readonly, nonatomic) CALayer *arrowImage;
 
 - (void)refreshLastUpdatedDate;
 - (void)finishedLoading;
